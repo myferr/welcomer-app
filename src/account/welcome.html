@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        const accountCreated = localStorage.getItem('accountCreated');
+        
+        if (accountCreated == 1) {
+            location = ('../app/index.html');
+        } 
+    </script>
+    <link rel="stylesheet" href="../background.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="account.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up — Welcomer</title>
+</head>
+<body>
+    <h1>Welcome!</h1>
+    <input type="username" id="username" placeholder="Username">
+    <br><br><button class="btn2" onclick="registeraccount()"><span class="gradient2">Let's Go!</span></button>
+    <script src="account.js"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap);
+@import url('https://dsans.davidstudios.uk/css2.css');
+
+html, * {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    background-color:#1e2028;
+    color:rgb(240, 246, 247);
+}
+
+input {
+    background-color:#292b35;
+    border:none;
+    border-radius:10px;
+    width:400px;
+    max-height:10px;
+    padding:15px;
+    color:#a1abba;
+}
+
+input::placeholder {
+    color:#a1abba;
+}
+
+input:active, input:focus {
+    outline: none;
+    border:none;
+}
+/* Removing the scrollbar.*/
+::-webkit-scrollbar {
+    display: none;
+}
+::-webkit-scrollbar-button {
+    display: none;
+}
+::-webkit-scrollbar-corner {
+    display: none;
+}
+::-webkit-scrollbar-thumb {
+    display: none;
+}
+::-webkit-scrollbar-track {
+    display: none;
+}
+::-webkit-scrollbar-track-piece {
+    display: none;
+}
+::-webkit-search-results-decoration {
+    display: none;
+}
+::-webkit-search-results-button {
+    display: none;
+}
+
+#settings {
+    background-color:#292b35;
+    padding:10px;
+    border-radius:100px;
+    max-width:30px;
+    max-height:30px;
+    transition: ease all 0.2s;
+}
+
+#settings:hover {
+    background-color: #3d404e;
+    transform: translateY(-5px);
+}

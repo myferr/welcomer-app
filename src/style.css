@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap);
+@import url('https://dsans.davidstudios.uk/css2.css');
+
+html, * {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    color:rgb(240, 246, 247);
+}
+
+h1 {
+    font-size:3rem;
+}
+
+.center {
+    margin-top:100px;
+    text-align: center;
+}
+
+.gradient {
+    background: #6D4AFF;
+    background: linear-gradient(127deg, rgba(2,0,36,1) 0%, rgba(113,75,254,1) 0%, rgba(226,170,170,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.desc {
+    color:rgba(240, 246, 247, 0.402);
+    font-family:'DSans Regular', Times, serif;
+    font-style: italic;
+    font-size:1.5rem;
+}
+
+.btn1, .btn1::before {
+    border:none;
+    border-radius:100px;
+    padding:12px 50px;
+    background: linear-gradient(to left, #6d4aff, #cb59d7);
+    color:rgb(240, 246, 247);
+    transition: ease all 0.3s;
+}
+
+.btn1:hover {
+    box-shadow: 0px 0px 12px black;
+    transform:scale(115%);
+}
+
+.btn1:active {
+    transform:scale(100%);
+}
+
+#bar {
+    margin-left:130px;
+    padding-top:50px;
+    font-size:1.3rem;
+    display:flex;
+    flex: content;
+    flex-direction: row;
+}
+
+#bar > .LineBelow > .title {
+    margin-right:100px;
+    font-weight:800;
+}
+
+a {
+    color:#6d4aff;
+    text-decoration: none;
+}
+
+#bar > .LineBelow > a {
+    margin-left:100px;
+}
+
+.LineBelow {
+    padding-bottom:50px;
+    border-bottom: 2px solid #181038;
+}
+
+.btn2 {
+    padding:12px 100px;
+    border:none;
+    background-color:rgb(240, 246, 247);
+    border-radius:100px;
+}
+
+.gradient2 {
+    background: #6D4AFF;
+    background: linear-gradient(to left, #6d4aff, #cb59d7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+button:hover {
+    cursor:pointer;
+}
