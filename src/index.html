@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script>
+        const accountCreated = localStorage.getItem('accountCreated');
+        
+        if (accountCreated == 1) {
+            location = ('./app/');
+        } 
+    </script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="background.css">
     <meta charset="UTF-8">
